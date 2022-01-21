@@ -1,6 +1,7 @@
 
 Evil Bunny Trojan
 =================
+Потрясающую производительность! 
 
 A simple trojan keylogger written in Python, disguised as an animated ASCII
 bunny (made for pedagogical purposes)
