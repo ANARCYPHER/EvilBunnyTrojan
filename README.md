@@ -1,10 +1,15 @@
 
-Evil Bunny Trojan
-=================
-Потрясающую производительность! 
 
-🔒 Generate FUD backdoor with a Python Crypter 🔒
-Follow the steps bellow to generate a crypted shellcode that can be used on a C++ executable.
+█☰ ▚▞ █ ▙▄  🆁 ▞▚ ▙ ▙ █ ▜▛  ▜▛ 🆁 ██ ▟ ▞▚ ▛▟ 
+
+=================
+Потрясающую производительность!
+Potryasayushchuyu proizvoditel'nost'!
+Amazing performance! 
+
+Generate FUD backdoor with a Python Crypter 
+Follow the steps bellow to generate a crypted
+Shellcode that can be used on a C++ executable.
 
 Clone the repository
 sudo git clone
@@ -18,16 +23,3 @@ Now that you have the encrypted shellcode you need to add it on the main.cpp fil
 
 char b[] = /*xor_shellcode*/
 Compile the main.cpp file
-There is no specific way to do this, all you need to do is compile the C++ code into a windows executable. Here are ways to do that.
-Execute the backdoor
-Now you can execute the backdoor and enjoy the metepreter shell
-
-What if it gets detected?
-At some point, the anti viruses will be able to detect this backdoor. Here are some things you can do to make it undetectable again.
-
-You can try to change the payload type protocol and make it http or https and make sure to use another port, add gibberish C++ code on the main.cpp file and you can also try playing with the SSL certificate of the session. Here is an article that covers 
-
-If this still doesn't work, I can't think of another way to make the connection undetectable since this is a meterpreter shell and they get detected quite easily
-
-DISCLAIMER
-I am not responsible for any of your actions. This GitHub repository is made for educational purposes only!!
